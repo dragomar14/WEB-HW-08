@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "web8hw"
+version = "0.1.0"
+description = ""
+authors = ["Dmyto Marchenko <d.i.marchenko@student.khai.edu>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymongo = "^4.3.3"
+mongoengine = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
